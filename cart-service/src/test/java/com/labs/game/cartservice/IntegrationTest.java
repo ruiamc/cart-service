@@ -15,14 +15,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class IntegrationTest {
 
+
     @Autowired
     private TestRestTemplate restTemplate;
 
     @Test
     public void getCart_returnsOK(){
-        final ResponseEntity<CartItem[]> entity = restTemplate.getForEntity("/cart-items?customer=1111", CartItem[].class); // here the service is called
-        assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.OK); // assert validates that service responds with HTTP 200 code
+        final ResponseEntity<CartItem[]> entity = restTemplate.getForEntity("/cart-items?customer=1111", CartItem[].class);
+        assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
 
     }
 }
-
