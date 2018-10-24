@@ -17,13 +17,13 @@ org.springframework.cloud.contract.spec.Contract.make {
                     "id": 0,
                     "customer": "111",
                     "product": "AAA",
-                    "quantity": 1
+                    "quantity": 10
                 },
                 {
                     "id": 1,
                     "customer": "111",
                     "product": "BBB",
-                    "quantity": 1
+                    "quantity": 11
                 }
             ]
         """)
