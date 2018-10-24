@@ -1,4 +1,4 @@
-package com.labs.game.cardservice;
+package com.labs.game.cartservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CardServiceApplicationTests {
+public class CartServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {

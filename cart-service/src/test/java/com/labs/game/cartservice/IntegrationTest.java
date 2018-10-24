@@ -1,4 +1,4 @@
-package com.labs.game.cardservice;
+package com.labs.game.cartservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

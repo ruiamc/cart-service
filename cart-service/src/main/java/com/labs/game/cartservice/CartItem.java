@@ -1,4 +1,4 @@
-package com.labs.game.cardservice;
+package com.labs.game.cartservice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
